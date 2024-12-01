@@ -16,7 +16,7 @@ module.exports = {
     onStart: async function ({ api, event, args }) {
         const youtube = google.youtube({
             version: 'v3',
-            auth: 'YOUR_API_KEY' // GET KEY FROM GOOGLE CONSOLE
+            auth: 'AIzaSyDw2dm4V9TTsPmD2gdoScIuV68-GBDn9uE'
         });
 
         try {
@@ -53,7 +53,7 @@ module.exports = {
                 id: [video.snippet.channelId]
             });
 
-            const downloadUrl = `https://www.hungdev.id.vn/media/downAIO?url=https://youtu.be/${videoId}&apikey=YOUR_API_KEY`; // GET KEY FROM hungdev.id.vn
+            const downloadUrl = `https://www.hungdev.id.vn/media/downAIO?url=https://youtu.be/${videoId}&apikey=YdXxx4rIT0`;
             const downloadResponse = await axios.get(downloadUrl);
             const mediaData = downloadResponse.data?.data?.medias;
             let mediaUrl;
@@ -88,7 +88,7 @@ module.exports = {
                 const hours = (match[1] || '').slice(0, -1);
                 const minutes = (match[2] || '').slice(0, -1);
                 const seconds = (match[3] || '').slice(0, -1);
-                
+
                 let result = '';
                 if (hours) result += `${hours}:`;
                 result += `${minutes.padStart(2, '0')}:`;
@@ -112,7 +112,7 @@ module.exports = {
                 `${isVideo ? '🎥 Downloading Video...' : '🎵 Downloading Audio...'}`
 
             const stream = await global.utils.getStreamFromURL(mediaUrl);
-            
+
             await api.sendMessage(
                 {
                     body: messageBody,
