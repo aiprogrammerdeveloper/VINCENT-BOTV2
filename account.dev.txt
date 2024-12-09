@@ -1,0 +1,32 @@
+[
+    {
+        "name": "_ga_B9CY1C9VBC",
+        "value": "GS1.1.1733659046.1.1.1733659091.0.0.0",
+        "domain": ".mozilla.org",
+        "hostOnly": false,
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "no_restriction",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1768219091,
+        "storeId": null
+    },
+    {
+        "name": "_ga",
+        "value": "GA1.1.1369949411.1733659046",
+        "domain": ".mozilla.org",
+        "hostOnly": false,
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "no_restriction",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1768219046,
+        "storeId": null
+    }
+]
