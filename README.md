@@ -1,5 +1,5 @@
 <img src="https://i.imgur.com/7ERzpLv.jpeg" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> Vincent Bot -Messenger Chat Bot </h1>
+<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> 𝗩𝗜𝗡𝗖𝗘𝗡𝗧 𝗔𝗥𝗠𝗘𝗡𝗜𝗢𝗡 -𝖬𝖾𝗌𝗌𝖾𝗇𝗀𝖾𝗋 𝖡𝗈𝗍 </h1>
 
 <p align="center">
         <a href="https://nodejs.org/dist/v16.20.0">
