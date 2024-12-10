@@ -1,5 +1,5 @@
-<img src="https://i.imgur.com/wRUV5Sp.jpeg" alt="banner">
-<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> Goat Bot - Bot Chat Messenger</h1>
+<img src="https://i.imgur.com/7ERzpLv.jpeg" alt="banner">
+<h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> Vincent Bot -Messenger Chat Bot </h1>
 
 <p align="center">
         <a href="https://nodejs.org/dist/v16.20.0">
